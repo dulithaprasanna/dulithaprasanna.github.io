@@ -13,3 +13,5 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+# private CV with personal contact details
+Dulitha_cv_new.pdf
