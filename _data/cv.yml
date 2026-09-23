@@ -25,7 +25,7 @@ cv:
         end_date: 2026-04
         highlights:
           - "Thesis advisors: Prof. Theresa L. Windus and Prof. Davit Potoyan."
-          - "Dissertation defended April 10, 2026."
+          - "Dissertation: *Exploration without Exhaustion*, defended April 10, 2026."
 
       - institution: University of Colombo
         location: Colombo, Sri Lanka
@@ -49,7 +49,8 @@ cv:
         url: https://www.med.unc.edu/pharm/
         start_date: 2026
         highlights:
-          - Research at the interface of machine learning, molecular simulation, and biophysics.
+          - Gaussian accelerated molecular dynamics (GaMD) enhanced-sampling simulations of RNA and RNA–ligand systems.
+          - Developing AI-driven models for RNA-targeted drug discovery and virtual screening.
 
       - company: Iowa State University & Ames National Laboratory
         position: Graduate Research Assistant
@@ -59,7 +60,7 @@ cv:
         highlights:
           - "**AMLRO:** built an open-source active learning framework for single- and multi-objective reaction optimization, with a Flask/Streamlit GUI for open-loop use and SHAP-based explainability. Applied it to Paal-Knorr flow synthesis, closed-loop diglycolamide (DGA) flow synthesis, and aldehyde-selective Wacker oxidation in a 7-dimensional parameter space."
           - "**CyRxnOpt:** co-developed a unified interface for benchmarking reaction optimization algorithms, integrated into the RxnRover automation ecosystem."
-          - "**ALSEBO:** developed a VAE-plus-Bayesian-optimization framework for data-efficient generative protein design; designed novel green fluorescent protein variants validated by MD simulations."
+          - "**ALSEBO:** developed a coevolution-informed Bayesian optimization framework over a generative latent sequence landscape for data-efficient protein design; designed novel green fluorescent protein variants validated by MD simulations."
           - "**Enzyme thermal adaptation:** studied serine proteases and cold-adapted β-glucosidases from psychrophilic to thermophilic organisms using molecular dynamics, bioinformatics, and unsupervised machine learning."
           - "Collaborated with Oak Ridge National Laboratory and the Critical Materials Innovation Hub (CMI) on multi-objective optimization of molten salt electrochemical graphitization."
 
@@ -96,13 +97,13 @@ cv:
           - Explainable AI with SHAP to rank the influence of reaction variables.
           - "Released as DOE software: [doi:10.11578/dc.20260205.1](https://doi.org/10.11578/dc.20260205.1)."
 
-      - name: ALSEBO (Active Sequence Exploration Bayesian Optimizer)
+      - name: ALSEBO (Active Learning Sequence Exploration via Bayesian Optimization)
         # url: https://github.com/your-org/alsebo # TODO: add the repository link once public
         summary: Generative protein design by Bayesian optimization in a learned latent space.
         highlights:
           - Variational autoencoder (VAE) latent space for protein sequences.
-          - Bayesian optimization to propose new variants with few measurements.
-          - Demonstrated on avGFP fluorescence.
+          - Coevolution-informed Bayesian optimization to propose new variants with few measurements.
+          - Demonstrated on avGFP fluorescence ([bioRxiv 2026](https://www.biorxiv.org/content/10.64898/2026.08.06.743295)).
 
       - name: CyRxnOpt
         url: https://github.com/RxnRover/CyRxnOpt
@@ -151,7 +152,7 @@ cv:
 
       - name: Molecular Simulation
         icon: fa-solid fa-dna
-        keywords: "OpenMM, AmberTools, GROMACS, enhanced sampling, MDAnalysis, MDTraj, PyEMMA, molecular docking (AutoDock)"
+        keywords: "GaMD enhanced sampling, AMBER/AmberTools, OpenMM, GROMACS, MDAnalysis, MDTraj, PyEMMA, molecular docking (AutoDock), virtual screening"
 
       - name: Computational Chemistry & Cheminformatics
         icon: fa-solid fa-atom

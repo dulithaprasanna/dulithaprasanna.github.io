@@ -1,5 +1,12 @@
-# Filled in automatically by the "Update Google Scholar citations" workflow
-# once scholar_userid is set in _data/socials.yml.
+# Updated automatically by the "Update Google Scholar citations" workflow.
 metadata:
-  last_updated:
-papers: {}
+  last_updated: "2026-09-23"
+papers:
+  k65eEsEAAAAJ:u5HHmVD_uO8C:
+    citations: 2
+    title: Evolutionary thermal adaptations of enzymes at temperature extremes
+    year: "2024"
+  k65eEsEAAAAJ:d1gkVwhDpl0C:
+    citations: 1
+    title: "Thermal adaptation of extremozymes: Temperature-sensitive contact analysis of serine proteases"
+    year: "2025"

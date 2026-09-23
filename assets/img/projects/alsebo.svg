@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
   <rect width="800" height="450" fill="#3d7a5c"/>
   <text x="400" y="215" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="700" text-anchor="middle">ALSEBO</text>
-  <text x="400" y="270" fill="#ffffff" fill-opacity="0.85" font-family="Helvetica, Arial, sans-serif" font-size="26" text-anchor="middle">Active Sequence Exploration Bayesian Optimizer</text>
+  <text x="400" y="270" fill="#ffffff" fill-opacity="0.85" font-family="Helvetica, Arial, sans-serif" font-size="21" text-anchor="middle">Active Learning Sequence Exploration via Bayesian Optimization</text>
 </svg>

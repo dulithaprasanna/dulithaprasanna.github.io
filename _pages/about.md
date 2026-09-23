@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a Postdoctoral Research Associate in the **Miao Lab**, Department of Pharmacology at the **University of North Carolina at Chapel Hill**. I earned my Ph.D. in Physical Chemistry from **Iowa State University** and **Ames National Laboratory** in April 2026, advised by Prof. Theresa L. Windus and Prof. Davit Potoyan.
+I am a Postdoctoral Research Associate in the [**Miao Lab**](https://www.med.unc.edu/pharm/miaolab/), Department of Pharmacology at the **University of North Carolina at Chapel Hill**. I earned my Ph.D. in Physical Chemistry from **Iowa State University** and **Ames National Laboratory** in April 2026, advised by Prof. Theresa L. Windus and Prof. Davit Potoyan.
 
 My research centers on **data-efficient discovery**: finding high-performing molecules, reaction conditions, and protein sequences while running as few costly experiments or simulations as possible. To do this, I pair exploration of chemical and sequence space with **active machine learning** and **biophysics**. Surrogate models pick the next most informative experiment, and physics-based simulation explains why the best candidates work.
 
@@ -49,8 +49,9 @@ My research centers on **data-efficient discovery**: finding high-performing mol
 
 #### Research directions
 
+- **Enhanced sampling and AI for RNA-targeted drug discovery (current, Miao Lab).** I run Gaussian accelerated molecular dynamics (GaMD) enhanced-sampling simulations and develop AI-driven models for RNA drug discovery and virtual screening, combining physics-based sampling with machine learning to find and rank small molecules that bind RNA targets. See [project]({% link _projects/rna_drug_discovery.md %}).
 - **Active learning for reaction optimization.** I develop [AMLRO]({% link _projects/amlro.md %}), an Active Machine Learning Reaction Optimizer for closed- and open-loop optimization of reaction conditions. It uses explainable AI (SHAP) to show which variables drive performance, and it has been applied to Wacker oxidation.
-- **Generative protein design.** I develop [ALSEBO]({% link _projects/alsebo.md %}), an Active Sequence Exploration Bayesian Optimizer. It combines variational autoencoders with Bayesian optimization to search protein sequence space efficiently, with avGFP as a model system.
+- **Generative protein design.** I develop [ALSEBO]({% link _projects/alsebo.md %}) (Active Learning Sequence Exploration via Bayesian Optimization), which couples a generative latent sequence landscape with coevolution-informed Bayesian optimization to design proteins from very few measurements, with avGFP as a model system ([bioRxiv 2026](https://www.biorxiv.org/content/10.64898/2026.08.06.743295)).
 - **Biophysics of extremophilic enzymes.** I use long-timescale molecular dynamics (OpenMM, AmberTools) to study how enzymes from extreme environments adapt to temperature, linking sequence and structure to dynamics and stability.
 
-**Tools I use:** Python, Flask, Streamlit, Bayesian optimization, ORCA, xTB, OpenMM, and AmberTools.
+**Tools I use:** Python, PyTorch, Flask, Streamlit, Bayesian optimization, GaMD enhanced sampling, AMBER/AmberTools, OpenMM, ORCA, and xTB.

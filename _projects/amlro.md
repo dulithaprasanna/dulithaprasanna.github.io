@@ -3,7 +3,7 @@ layout: page
 title: AMLRO
 description: Active Machine Learning Reaction Optimizer for single- and multi-objective, closed- and open-loop reaction optimization with explainable AI.
 img: assets/img/projects/amlro.svg # placeholder: replace with a screenshot or figure
-importance: 1
+importance: 2
 category: work
 github: https://github.com/RxnRover/amlro
 related_publications: false
