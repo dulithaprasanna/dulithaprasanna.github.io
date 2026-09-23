@@ -1,9 +1,37 @@
-github_users:
-  - dulithaprasanna
+# Repositories shown on the /repositories/ page.
+# Cards are rendered by the site itself (no external stats services).
+# Star counts load live from shields.io.
+#
+# To add a repository, copy this block into the list under `repos:`
+# (cards appear in the order listed; `docs` is optional):
+#
+#   - repo: owner/repository-name
+#     name: Display Name
+#     description: One or two sentences about what it does.
+#     language: Python
+#     docs: https://link-to-documentation
+github_profile: dulithaprasanna
 
-repo_description_lines_max: 2
+repos:
+  - repo: RxnRover/amlro
+    name: AMLRO
+    description: Open-source framework that accelerates chemical reaction process optimization using active learning with classical machine learning regression models.
+    language: Jupyter Notebook
+    docs: https://rxnrover.github.io/amlro/
 
-github_repos:
-  - RxnRover/amlro
-  - RxnRover/CyRxnOpt
-  - dulithaprasanna/ALSEBO
+  - repo: dulithaprasanna/ALSEBO
+    name: ALSEBO
+    description: Active Learning Sequence Exploration via Bayesian Optimization for sample-efficient, coevolution-informed protein design.
+    language: Python
+    docs: https://dulithaprasanna.github.io/ALSEBO/
+
+  - repo: RxnRover/CyRxnOpt
+    name: CyRxnOpt
+    description: A single interface to many reaction optimization algorithms, for benchmarking and for integration into self-optimizing platforms.
+    language: Python
+    docs: https://rxnrover.github.io/CyRxnOpt/
+
+  - repo: dulithaprasanna/AMLRO_SO_2026
+    name: AMLRO_SO_2026
+    description: Datasets, scripts, and notebooks for the manuscript "AMLRO - A Surrogate Model-Driven Active Learning Framework for Reaction Process Optimization".
+    language: Jupyter Notebook
