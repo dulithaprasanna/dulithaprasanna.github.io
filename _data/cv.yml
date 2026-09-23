@@ -1,11 +1,9 @@
 cv:
   name: Dulitha Prasanna Kulathunga
-  label: Postdoctoral Research Associate
+  headline: Postdoctoral Research Associate
   email: dulithaprasanna@gmail.com
   location: Chapel Hill, NC
   website: https://dulithaprasanna.github.io
-  image: ""
-  summary: Computational chemist working on data-efficient discovery. I combine active machine learning, Bayesian optimization, and molecular simulation to explore chemical and protein sequence space with as few experiments as possible.
 
   social_networks:
     - network: GitHub
@@ -14,6 +12,9 @@ cv:
     #   username: your-linkedin-username
 
   sections:
+    Summary:
+      - bullet: "Computational chemist working on data-efficient discovery. I combine active machine learning, Bayesian optimization, and molecular simulation to explore chemical and protein sequence space with as few experiments as possible."
+
     Education:
       - institution: Iowa State University & Ames National Laboratory
         location: Ames, IA
