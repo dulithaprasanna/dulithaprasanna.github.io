@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "projects-alsebo",
           title: 'ALSEBO',
-          description: "Active Sequence Exploration Bayesian Optimizer for generative protein design with variational autoencoders.",
+          description: "Active Learning Sequence Exploration via Bayesian Optimization. Coevolution-informed, sample-efficient generative protein design.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/alsebo/";
             },},{id: "projects-amlro",
@@ -47,6 +47,11 @@ ninja.data = [{
           description: "Active Machine Learning Reaction Optimizer for single- and multi-objective, closed- and open-loop reaction optimization with explainable AI.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/amlro/";
+            },},{id: "projects-rna-targeted-drug-discovery",
+          title: 'RNA-Targeted Drug Discovery',
+          description: "GaMD enhanced sampling and AI-driven models for RNA drug discovery and virtual screening (current, Miao Lab).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rna_drug_discovery/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -60,6 +65,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/dulithaprasanna", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=k65eEsEAAAAJ", "_blank");
         },
       },{
         id: 'social-cv',
