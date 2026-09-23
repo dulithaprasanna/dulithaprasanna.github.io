@@ -109,23 +109,33 @@ cv:
 
     Awards:
       - title: Ames National Laboratory Innovation Incentive Award (for CyRxnOpt)
+        authors:
+          - "Ames National Laboratory"
         date: 2026
         awarder: Ames National Laboratory
 
       - title: Klaus Ruedenberg Theoretical Chemistry Award
+        authors:
+          - "Department of Chemistry, Iowa State University"
         date: 2025
         awarder: Department of Chemistry, Iowa State University
 
       - title: Drtina Chemistry Graduate Student Travel Award
+        authors:
+          - "Department of Chemistry, Iowa State University"
         date: 2025
         awarder: Department of Chemistry, Iowa State University
         summary: Received in 2024 and 2025.
 
       - title: Edward V. Sayre Chemistry Scholarship
+        authors:
+          - "Department of Chemistry, Iowa State University"
         date: 2024
         awarder: Department of Chemistry, Iowa State University
 
       - title: CUFSAA Gold Medal for Best Performance in Computational Chemistry
+        authors:
+          - "University of Colombo"
         date: 2019
         awarder: University of Colombo
 
