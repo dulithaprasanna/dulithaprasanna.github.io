@@ -33,8 +33,12 @@ $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 // Theme colors
+// Accent color for links, navigation, and buttons. Change these two values to re-theme the site.
+// Alternatives (light / dark): deep teal #0f766e / #2dd4bf, indigo #4338ca / #a5b4fc, crimson #b91c1c / #f87171
+$theme-color-light: #1f6fb2 !default; // Carolina blue, darkened for readable text on white
+$theme-color-dark: #7bafd4 !default; // Carolina blue for dark mode
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($theme-color-light, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
