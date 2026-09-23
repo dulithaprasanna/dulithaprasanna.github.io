@@ -9,8 +9,8 @@ last_name: Kulathunga
 contact_note: >
   Email is the best way to reach me. I am always happy to talk about active learning, protein design, and reaction optimization.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Dulitha Prasanna Kulathunga, Postdoctoral Research Associate at UNC Chapel Hill.
-  Data-efficient discovery at the interface of active machine learning, chemistry, and biophysics.
+  Dulitha Prasanna Kulathunga, computational and theoretical chemist and biophysicist at UNC Chapel Hill.
+  Molecular simulation and machine learning for data-efficient molecular discovery.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

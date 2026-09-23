@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Research Associate · <a href='https://www.med.unc.edu/pharm/' target='_blank'>Department of Pharmacology</a>, University of North Carolina at Chapel Hill
+subtitle: <b>Computational & Theoretical Chemist · Computational Biophysicist · Machine Learning for Molecular Discovery</b><br>Postdoctoral Research Associate · <a href='https://www.med.unc.edu/pharm/miaolab/' target='_blank'>Miao Lab</a>, <a href='https://www.med.unc.edu/pharm/' target='_blank'>Department of Pharmacology</a>, University of North Carolina at Chapel Hill
 
 profile:
   align: right
@@ -25,9 +25,13 @@ latest_posts:
   enabled: false
 ---
 
-I am a Postdoctoral Research Associate in the [**Miao Lab**](https://www.med.unc.edu/pharm/miaolab/) led by [Prof. Yinglong Miao](https://www.med.unc.edu/pharm/miaolab/pi/), Department of Pharmacology at the **University of North Carolina at Chapel Hill**. I earned my Ph.D. in Physical Chemistry from **Iowa State University** and **Ames National Laboratory** in April 2026, advised by Prof. Theresa L. Windus and Prof. Davit Potoyan.
+I am a **computational and theoretical chemist and biophysicist** working at the interface of molecular simulation, machine learning, and scientific discovery. I am currently a Postdoctoral Research Associate in the [**Miao Lab**](https://www.med.unc.edu/pharm/miaolab/), led by [Prof. Yinglong Miao](https://www.med.unc.edu/pharm/miaolab/pi/), in the Department of Pharmacology at the **University of North Carolina at Chapel Hill**. I earned my Ph.D. in Physical Chemistry from **Iowa State University and Ames National Laboratory** in April 2026, advised by Prof. Theresa L. Windus and Prof. Davit Potoyan.
 
-My research centers on **data-efficient discovery**: finding high-performing molecules, reaction conditions, and protein sequences while running as few costly experiments or simulations as possible. To do this, I pair exploration of chemical and sequence space with **active machine learning** and **biophysics**. Surrogate models pick the next most informative experiment, and physics-based simulation explains why the best candidates work.
+My research focuses on understanding and designing **complex chemical and biological systems across multiple scales**, from molecular interactions and biomolecular dynamics to chemical reactions and molecular design. I combine **physics-based computational methods (molecular dynamics, quantum chemistry, and enhanced-sampling simulations) with machine learning and data-driven optimization** to explore chemical and biological spaces efficiently.
+
+A central theme of my research is **data-efficient scientific discovery**: how can we identify promising molecules, reaction conditions, protein sequences, or molecular interactions while minimizing the number of costly experiments or simulations required? I approach this problem by combining **molecular simulation, statistical learning, active machine learning, and biophysical analysis**. Machine learning models guide exploration toward informative regions of chemical and biological space, while physics-based simulations provide mechanistic insight into the molecular interactions and dynamics underlying observed behavior.
+
+My research therefore spans several interconnected directions, including **computational chemistry, molecular and biomolecular simulation, protein biophysics, reaction optimization, protein design, and AI-driven molecular discovery**. Across these areas, my goal is to develop computational approaches that are not only predictive, but also **mechanistically informative and experimentally useful**.
 
 <div class="row align-items-center mt-4">
   <div class="col-sm-4 mt-3 mt-md-0">

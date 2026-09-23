@@ -13,7 +13,7 @@ cv:
 
   sections:
     Summary:
-      - bullet: "Computational chemist working on data-efficient discovery. I combine active machine learning, Bayesian optimization, and molecular simulation to explore chemical and protein sequence space with as few experiments as possible."
+      - bullet: "Computational and theoretical chemist and biophysicist working at the interface of molecular simulation, machine learning, and scientific discovery. I combine molecular dynamics, quantum chemistry, and enhanced-sampling simulations with active machine learning and data-driven optimization to find promising molecules, reaction conditions, and protein sequences with as few costly experiments or simulations as possible."
 
     Education:
       - institution: Iowa State University & Ames National Laboratory
