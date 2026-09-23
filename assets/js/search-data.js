@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "My GitHub profile and the open-source projects I develop.",
+          description: "Open-source software for active learning, reaction optimization, and protein design.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -47,6 +47,11 @@ ninja.data = [{
           description: "Active Machine Learning Reaction Optimizer for single- and multi-objective, closed- and open-loop reaction optimization with explainable AI.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/amlro/";
+            },},{id: "projects-cyrxnopt",
+          title: 'CyRxnOpt',
+          description: "A single Python interface to install, use, and benchmark many reaction optimization algorithms.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cyrxnopt/";
             },},{id: "projects-rna-targeted-drug-discovery",
           title: 'RNA-Targeted Drug Discovery',
           description: "GaMD enhanced sampling and AI-driven models for RNA drug discovery and virtual screening (current, Miao Lab).",
