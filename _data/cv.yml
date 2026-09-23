@@ -98,7 +98,7 @@ cv:
           - "Released as DOE software: [doi:10.11578/dc.20260205.1](https://doi.org/10.11578/dc.20260205.1)."
 
       - name: ALSEBO (Active Learning Sequence Exploration via Bayesian Optimization)
-        # url: https://github.com/your-org/alsebo # TODO: add the repository link once public
+        url: https://github.com/dulithaprasanna/ALSEBO
         summary: Generative protein design by Bayesian optimization in a learned latent space.
         highlights:
           - Variational autoencoder (VAE) latent space for protein sequences.

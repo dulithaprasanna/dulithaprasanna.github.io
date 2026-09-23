@@ -29,23 +29,17 @@ I am a Postdoctoral Research Associate in the [**Miao Lab**](https://www.med.unc
 
 My research centers on **data-efficient discovery**: finding high-performing molecules, reaction conditions, and protein sequences while running as few costly experiments or simulations as possible. To do this, I pair exploration of chemical and sequence space with **active machine learning** and **biophysics**. Surrogate models pick the next most informative experiment, and physics-based simulation explains why the best candidates work.
 
-<div class="concept-figure text-center my-4 p-4">
-  <!-- Replace the two <p> lines below with your figure: save it as assets/img/data_efficient_discovery.png
-       and use al-folio's figure.liquid include (see _projects/1_project.md for an example). -->
-  <p class="mb-1 font-weight-bold">Concept figure: Data-Efficient Discovery</p>
-  <p class="mb-0 small">Design space &rarr; surrogate model &rarr; acquisition &rarr; experiment / simulation &rarr; model update</p>
+<div class="row align-items-center mt-4">
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/amlro_overview.jpg" title="AMLRO" alt="AMLRO active learning cycle for reaction optimization" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/alsebo_pipeline.jpg" title="ALSEBO" alt="ALSEBO active learning loop for protein design" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
 </div>
-<style>
-  .concept-figure {
-    border: 2px dashed var(--global-divider-color);
-    border-radius: 0.5rem;
-    color: var(--global-text-color-light);
-    min-height: 220px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-</style>
+<div class="caption mb-4">
+  Data-efficient discovery in two design spaces. <b>Left:</b> <a href="{% link _projects/amlro.md %}">AMLRO</a> closes the loop between experiments and machine learning to optimize chemical reactions. <b>Right:</b> <a href="{% link _projects/alsebo.md %}">ALSEBO</a> explores a generative protein landscape with coevolution-informed Bayesian optimization.
+</div>
 
 #### Research directions
 
