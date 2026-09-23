@@ -49,6 +49,7 @@ cv:
         url: https://www.med.unc.edu/pharm/
         start_date: 2026
         highlights:
+          - "Advisor: Prof. Yinglong Miao."
           - Gaussian accelerated molecular dynamics (GaMD) enhanced-sampling simulations of RNA and RNA–ligand systems.
           - Developing AI-driven models for RNA-targeted drug discovery and virtual screening.
 

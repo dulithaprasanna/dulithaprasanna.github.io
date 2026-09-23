@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a Postdoctoral Research Associate in the [**Miao Lab**](https://www.med.unc.edu/pharm/miaolab/), Department of Pharmacology at the **University of North Carolina at Chapel Hill**. I earned my Ph.D. in Physical Chemistry from **Iowa State University** and **Ames National Laboratory** in April 2026, advised by Prof. Theresa L. Windus and Prof. Davit Potoyan.
+I am a Postdoctoral Research Associate in the [**Miao Lab**](https://www.med.unc.edu/pharm/miaolab/) led by [Prof. Yinglong Miao](https://www.med.unc.edu/pharm/miaolab/pi/), Department of Pharmacology at the **University of North Carolina at Chapel Hill**. I earned my Ph.D. in Physical Chemistry from **Iowa State University** and **Ames National Laboratory** in April 2026, advised by Prof. Theresa L. Windus and Prof. Davit Potoyan.
 
 My research centers on **data-efficient discovery**: finding high-performing molecules, reaction conditions, and protein sequences while running as few costly experiments or simulations as possible. To do this, I pair exploration of chemical and sequence space with **active machine learning** and **biophysics**. Surrogate models pick the next most informative experiment, and physics-based simulation explains why the best candidates work.
 

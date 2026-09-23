@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-**Current postdoctoral research** in the [Miao Lab](https://www.med.unc.edu/pharm/miaolab/), Department of Pharmacology, University of North Carolina at Chapel Hill.
+**Current postdoctoral research** in the [Miao Lab](https://www.med.unc.edu/pharm/miaolab/) of [Prof. Yinglong Miao](https://www.med.unc.edu/pharm/miaolab/pi/), Department of Pharmacology, University of North Carolina at Chapel Hill.
 
 RNA is a promising but difficult drug target. Its structures are flexible and shift between many conformations, and relatively few experimental RNA–ligand complexes are available to learn from. This project combines enhanced-sampling molecular dynamics with machine learning to make RNA-targeted drug discovery faster and more reliable.
 
