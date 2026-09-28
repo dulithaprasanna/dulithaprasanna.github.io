@@ -98,6 +98,10 @@ cv:
           - Explainable AI with SHAP to rank the influence of reaction variables.
           - "Released as DOE software: [doi:10.11578/dc.20260205.1](https://doi.org/10.11578/dc.20260205.1)."
 
+      - name: AMLRO GUI
+        url: https://github.com/dulithaprasanna/amlro_GUI
+        summary: Web interface for running AMLRO active learning optimization campaigns without writing Python (Flask API backend, React/TypeScript frontend).
+
       - name: ALSEBO (Active Learning Sequence Exploration via Bayesian Optimization)
         url: https://github.com/dulithaprasanna/ALSEBO
         summary: Generative protein design by Bayesian optimization in a learned latent space.

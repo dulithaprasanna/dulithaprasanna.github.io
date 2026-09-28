@@ -23,12 +23,12 @@ related_publications: false
 #### Key features
 
 - **Closed-loop optimization:** runs autonomously with automated or high-throughput experimental platforms.
-- **Open-loop optimization:** keeps a chemist in the loop through a web GUI (Flask/Streamlit); the chemist reviews each suggestion before running it.
+- **Open-loop optimization:** keeps a chemist in the loop through the [AMLRO GUI](https://github.com/dulithaprasanna/amlro_GUI), a web app (Flask backend, React/TypeScript frontend) for defining the reaction scope, reviewing each AI-suggested experiment, and recording results, with no Python required.
 - **Single- and multi-objective:** optimize yield alone, or trade off competing goals such as yield and selectivity.
 - **Explainable AI:** SHAP analysis shows which variables (catalyst, solvent, temperature, time, …) drive reaction performance, so the model's recommendations are interpretable, not a black box.
 - **Applications:** aldehyde-selective **Wacker oxidation** (multi-objective, 7-dimensional parameter space), Paal-Knorr flow synthesis, and closed-loop continuous flow synthesis of diglycolamides.
 
-Code: [RxnRover/amlro](https://github.com/RxnRover/amlro) · Software DOI: [10.11578/dc.20260205.1](https://doi.org/10.11578/dc.20260205.1)
+Code: [RxnRover/amlro](https://github.com/RxnRover/amlro) · Web GUI: [amlro_GUI](https://github.com/dulithaprasanna/amlro_GUI) · Software DOI: [10.11578/dc.20260205.1](https://doi.org/10.11578/dc.20260205.1)
 
 #### How it works
 

@@ -19,6 +19,11 @@ repos:
     language: Jupyter Notebook
     docs: https://rxnrover.github.io/amlro/
 
+  - repo: dulithaprasanna/amlro_GUI
+    name: AMLRO GUI
+    description: Web interface that lets bench chemists run a full AMLRO active learning optimization campaign with no Python required. Flask API backend with a React/TypeScript frontend.
+    language: TypeScript
+
   - repo: dulithaprasanna/ALSEBO
     name: ALSEBO
     description: Active Learning Sequence Exploration via Bayesian Optimization for sample-efficient, coevolution-informed protein design.

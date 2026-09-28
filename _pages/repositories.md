@@ -33,6 +33,7 @@ nav_order: 4
             {% case r.language %}
               {% when 'Python' %}{% assign lang_color = '#3572A5' %}
               {% when 'Jupyter Notebook' %}{% assign lang_color = '#DA5B0B' %}
+              {% when 'TypeScript' %}{% assign lang_color = '#3178C6' %}
               {% else %}{% assign lang_color = '#8b949e' %}
             {% endcase %}
             <span class="repo-lang"><span class="lang-dot" style="background-color: {{ lang_color }}"></span>{{ r.language }}</span>
