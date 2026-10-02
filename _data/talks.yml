@@ -98,6 +98,8 @@ presentations:
     authors: Dulitha P. Kulathunga, Davit Potoyan
     event: Biophysical Society 67th Annual Meeting
     images: [bps_2023.jpg, bps_2023_b.jpg]
+    link: /projects/extremophilic_enzymes/
+    link_label: Project
 
   - year: 2020
     type: Oral

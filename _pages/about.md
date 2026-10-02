@@ -45,11 +45,20 @@ My research therefore spans several interconnected directions, including **compu
   Data-efficient discovery in two design spaces. <b>Left:</b> <a href="{% link _projects/amlro.md %}">AMLRO</a> closes the loop between experiments and machine learning to optimize chemical reactions. <b>Right:</b> <a href="{% link _projects/alsebo.md %}">ALSEBO</a> explores a generative protein landscape with coevolution-informed Bayesian optimization.
 </div>
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/extremophilic_enzymes.jpg" title="Thermal adaptation of extremophilic enzymes" alt="Molecular dynamics of subtilisin-like serine proteases and a cold-adapted beta-glucosidase" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+<div class="caption mb-4">
+  Mechanistic insight from molecular dynamics. <a href="{% link _projects/extremophilic_enzymes.md %}">Thermal adaptation of extremophilic enzymes</a>: subtilisin-like serine proteases from psychrophilic to extreme thermophilic organisms (left), and temperature- and ligand-induced contact networks in a cold-adapted β-glucosidase (right).
+</div>
+
 #### Research directions
 
 - **Enhanced sampling and AI for RNA-targeted drug discovery (current, Miao Lab).** I run Gaussian accelerated molecular dynamics (GaMD) enhanced-sampling simulations and develop AI-driven models for RNA drug discovery and virtual screening, combining physics-based sampling with machine learning to find and rank small molecules that bind RNA targets. See [project]({% link _projects/rna_drug_discovery.md %}).
 - **Active learning for reaction optimization.** I develop [AMLRO]({% link _projects/amlro.md %}), an Active Machine Learning Reaction Optimizer for closed- and open-loop optimization of reaction conditions. It uses explainable AI (SHAP) to show which variables drive performance, and it has been applied to Wacker oxidation.
 - **Generative protein design.** I develop [ALSEBO]({% link _projects/alsebo.md %}) (Active Learning Sequence Exploration via Bayesian Optimization), which couples a generative latent sequence landscape with coevolution-informed Bayesian optimization to design proteins from very few measurements, with avGFP as a model system ([bioRxiv 2026](https://www.biorxiv.org/content/10.64898/2026.08.06.743295)).
-- **Biophysics of extremophilic enzymes.** I use long-timescale molecular dynamics (OpenMM, AmberTools) to study how enzymes from extreme environments adapt to temperature, linking sequence and structure to dynamics and stability.
+- **Biophysics of extremophilic enzymes.** I use long-timescale molecular dynamics (OpenMM, AmberTools), network analysis, and unsupervised learning to study how [enzymes from extreme environments adapt to temperature]({% link _projects/extremophilic_enzymes.md %}), from subtilisin-like serine proteases ([Biophysical Journal 2025](https://doi.org/10.1016/j.bpj.2025.06.001)) to cold-adapted β-glucosidases, linking sequence and structure to dynamics and stability.
 
 **Tools I use:** Python, PyTorch, Flask, Streamlit, Bayesian optimization, GaMD enhanced sampling, AMBER/AmberTools, OpenMM, ORCA, and xTB.

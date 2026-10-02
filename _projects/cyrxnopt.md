@@ -3,7 +3,7 @@ layout: page
 title: CyRxnOpt
 description: A single Python interface to install, use, and benchmark many reaction optimization algorithms.
 img: assets/img/projects/cyrxnopt.svg # placeholder: replace with a figure
-importance: 4
+importance: 5
 category: work
 github: https://github.com/RxnRover/CyRxnOpt
 related_publications: false
