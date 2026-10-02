@@ -114,6 +114,32 @@ cv:
         url: https://github.com/RxnRover/CyRxnOpt
         summary: Common Python interface for reaction optimization algorithms, usable from a CLI or inside self-optimizing platforms.
 
+    Presentations:
+      - label: "2026"
+        details: 'Ph.D. Final Defense: "Exploration without Exhaustion", Department of Chemistry, Iowa State University & Ames National Laboratory.'
+      - label: "2026"
+        details: 'Poster: "ALSEBO: Bayesian-Guided Exploration of the Green Fluorescent Protein Latent Generative Landscape", Chemistry Department Open House, Iowa State University, Ames, IA.'
+      - label: "2025"
+        details: 'Oral: "From data to discovery: efficient reaction design with the active learning multi-objective reaction optimizer (AMLRO) framework", ACS Fall 2025, Washington, D.C.'
+      - label: "2025"
+        details: 'Oral: "AI/ML Tools for Chemical Process Optimization: Trial-and-Error to Data-Driven Discovery", Critical Materials Innovation Hub (CMI) FA4 Meeting.'
+      - label: "2025"
+        details: 'Poster: "Molecular insights into cold-adapted beta-glucosidases", Biophysical Society 69th Annual Meeting.'
+      - label: "2024"
+        details: 'Poster: "AI-Driven Optimization for Chemical Synthesis", Chemistry Department Open House, Iowa State University, Ames, IA.'
+      - label: "2024"
+        details: 'Poster: "Evolutionary thermal adaptations of enzymes at temperature extremes", Biophysical Society 68th Annual Meeting.'
+      - label: "2023"
+        details: 'Preliminary Oral Examination: "Computational Design of Enzymes and Chemical Reactions", Department of Chemistry, Iowa State University.'
+      - label: "2023"
+        details: 'Oral: "Implementing a unified object-oriented framework for benchmarking chemical reaction optimization algorithms", ACS Midwest and Great Lakes Joint Regional Meeting.'
+      - label: "2023"
+        details: 'Poster: "Thermal adaptations of co-evolved psychrophilic, mesophilic, and thermophilic enzymes", Biophysical Society 67th Annual Meeting.'
+      - label: "2020"
+        details: 'Oral: "Developing a Machine Learning Web Application for Predicting Liver Patients", APACPH 2020 Conference: Public Health in the New Normal.'
+      - label: "2020"
+        details: 'Poster: "Comparison of structural properties and energetics of model amino acids containing unsaturated side chains using all-atom and united-atom force fields in MD simulations", SLAAS 76th Annual Scientific Sessions.'
+
     Awards:
       - title: Ames National Laboratory Innovation Incentive Award (for CyRxnOpt)
         authors:

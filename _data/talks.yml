@@ -1,0 +1,112 @@
+# Talks, posters, and Ph.D. milestones shown on the /talks/ page.
+# Images live in assets/img/talks/ (resize to ~1600 px and strip GPS metadata before adding).
+#
+# To add a presentation, copy this block to the top of `presentations:` (newest first):
+#
+#   - year: 2027
+#     type: Oral # or Poster, Invited talk
+#     title: Title of the talk or poster
+#     authors: Dulitha P. Kulathunga, Co-author One
+#     event: Conference name
+#     location: City, State
+#     images: [my_photo.jpg] # optional; one or two files from assets/img/talks/
+#     link: https://... # optional; paper, abstract, or project page
+#     link_label: Abstract # optional; text for the link button
+
+milestones:
+  - title: Exploration without Exhaustion
+    type: Ph.D. Final Defense
+    date: April 10, 2026
+    venue: Department of Chemistry, Iowa State University & Ames National Laboratory
+    image: phd_defense.jpg
+    link: https://dr.lib.iastate.edu/entities/publication/b6c7e624-d6c1-4887-82b4-0a72a6c0cc14
+    link_label: Dissertation
+
+  - title: Computational Design of Enzymes and Chemical Reactions
+    type: Preliminary Oral Examination
+    date: December 11, 2023
+    venue: Department of Chemistry, Iowa State University
+    image: phd_qualifier.jpg
+
+presentations:
+  - year: 2026
+    type: Poster
+    title: "ALSEBO: Bayesian-Guided Exploration of the Green Fluorescent Protein Latent Generative Landscape"
+    authors: Dulitha P. Kulathunga, Divyanshu Shukla, Davit Potoyan
+    event: Chemistry Department Open House
+    location: Iowa State University, Ames, IA
+    images: [openhouse_2026.jpg]
+    link: /projects/alsebo/
+    link_label: ALSEBO project
+
+  - year: 2025
+    type: Oral
+    title: "From data to discovery: efficient reaction design with the active learning multi-objective reaction optimizer (AMLRO) framework"
+    authors: Dulitha P. Kulathunga, Zachery Crandall, Lun An, Long Qi, Theresa L. Windus
+    event: ACS Fall 2025
+    location: Washington, D.C.
+    images: [acs_fall_2025.jpg]
+    link: /projects/amlro/
+    link_label: AMLRO project
+
+  - year: 2025
+    type: Oral
+    title: "AI/ML Tools for Chemical Process Optimization: Trial-and-Error to Data-Driven Discovery"
+    authors: Dulitha P. Kulathunga, Zachery Crandall, Lun An, Long Qi, Theresa L. Windus
+    event: Critical Materials Innovation Hub (CMI) FA4 Meeting
+
+  - year: 2025
+    type: Poster
+    title: Molecular insights into cold-adapted beta-glucosidases
+    authors: Dulitha P. Kulathunga, Davit Potoyan
+    event: Biophysical Society 69th Annual Meeting
+    images: [bps_2025.jpg, bps_2025_b.jpg]
+    link: https://doi.org/10.1016/j.bpj.2024.11.1772
+    link_label: Abstract
+
+  - year: 2024
+    type: Poster
+    title: AI-Driven Optimization for Chemical Synthesis
+    authors: Dulitha P. Kulathunga, Zachery Crandall, Long Qi, Theresa L. Windus
+    event: Chemistry Department Open House
+    location: Iowa State University, Ames, IA
+    images: [openhouse_2024.jpg]
+    link: /projects/amlro/
+    link_label: AMLRO project
+
+  - year: 2024
+    type: Poster
+    title: Evolutionary thermal adaptations of enzymes at temperature extremes
+    authors: Dulitha P. Kulathunga, Davit Potoyan
+    event: Biophysical Society 68th Annual Meeting
+    images: [bps_2024.jpg]
+    link: https://doi.org/10.1016/j.bpj.2023.11.1760
+    link_label: Abstract
+
+  - year: 2023
+    type: Oral
+    title: Implementing a unified object-oriented framework for benchmarking chemical reaction optimization algorithms
+    authors: Dulitha P. Kulathunga, Zachery Crandall, Long Qi, Theresa L. Windus
+    event: ACS Midwest and Great Lakes Joint Regional Meeting
+    images: [acs_midwest_2023.jpg]
+    link: /projects/cyrxnopt/
+    link_label: CyRxnOpt project
+
+  - year: 2023
+    type: Poster
+    title: Thermal adaptations of co-evolved psychrophilic, mesophilic, and thermophilic enzymes
+    authors: Dulitha P. Kulathunga, Davit Potoyan
+    event: Biophysical Society 67th Annual Meeting
+    images: [bps_2023.jpg, bps_2023_b.jpg]
+
+  - year: 2020
+    type: Oral
+    title: Developing a Machine Learning Web Application for Predicting Liver Patients
+    authors: Dulitha P. Kulathunga
+    event: "APACPH 2020 Conference: Public Health in the New Normal"
+
+  - year: 2020
+    type: Poster
+    title: Comparison of structural properties and energetics of model amino acids containing unsaturated side chains using all-atom and united-atom force fields in MD simulations
+    authors: Dulitha P. Kulathunga, Samantha Weerasinghe
+    event: SLAAS 76th Annual Scientific Sessions

@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: Open-source software for active learning, reaction optimization, and protein design.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 {% assign profile = site.data.repositories.github_profile %}
