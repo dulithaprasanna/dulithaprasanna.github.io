@@ -59,6 +59,11 @@ ninja.data = [{
           description: "A single Python interface to install, use, and benchmark many reaction optimization algorithms.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cyrxnopt/";
+            },},{id: "projects-thermal-adaptation-of-extremophilic-enzymes",
+          title: 'Thermal Adaptation of Extremophilic Enzymes',
+          description: "Molecular dynamics, network analysis, and machine learning reveal how enzymes from extreme environments adapt to temperature.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/extremophilic_enzymes/";
             },},{id: "projects-rna-targeted-drug-discovery",
           title: 'RNA-Targeted Drug Discovery',
           description: "GaMD enhanced sampling and AI-driven models for RNA drug discovery and virtual screening (current, Miao Lab).",
