@@ -7,6 +7,10 @@ on:
     - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
 
+permissions:
+  contents: write # commit the updated _data/citations.yml
+  actions: write # start the "Deploy site" workflow after an update
+
 jobs:
   update-citations:
     runs-on: ubuntu-latest
@@ -92,10 +96,22 @@ jobs:
           echo "🔧 Git configured."
 
       - name: Commit and push if changed
+        id: commit
         run: |
           git add _data/citations.yml
-          git diff --staged --quiet || (
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
             echo "📤 Committing and pushing changes..."
             git commit -m "Update Google Scholar citations"
             git push
-          )
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      # Pushes made with GITHUB_TOKEN do not trigger other workflows, but a dispatch does,
+      # so start the site rebuild explicitly when the citation counts changed.
+      - name: Rebuild site with new citation counts
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref ${{ github.ref_name }}
