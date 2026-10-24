@@ -56,7 +56,7 @@ ninja.data = [{
               window.location.href = "/projects/amlro/";
             },},{id: "projects-cyrxnopt",
           title: 'CyRxnOpt',
-          description: "A single Python interface to install, use, and benchmark many reaction optimization algorithms.",
+          description: "A generalized reaction optimization interface for autonomous laboratories and benchmarking (Digital Discovery, 2026).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cyrxnopt/";
             },},{id: "projects-thermal-adaptation-of-extremophilic-enzymes",
