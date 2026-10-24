@@ -14,8 +14,9 @@ Gemfile.lock
 node_modules/
 vendor
 # private CV with personal contact details
-Dulitha_cv_new.pdf
-Bps2025.jpg
-profile.jpg
-images/
-extermophilic_enzymes.png
+/Dulitha_cv_new.pdf
+/Bps2025.jpg
+/profile.jpg
+/images/
+/extermophilic_enzymes.png
+/amlro_gui.png
