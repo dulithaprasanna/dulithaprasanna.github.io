@@ -60,7 +60,7 @@ cv:
         end_date: 2026-04
         highlights:
           - "**AMLRO:** built an open-source active learning framework for single- and multi-objective reaction optimization, with a Flask/Streamlit GUI for open-loop use and SHAP-based explainability. Applied it to Paal-Knorr flow synthesis, closed-loop diglycolamide (DGA) flow synthesis, and aldehyde-selective Wacker oxidation in a 7-dimensional parameter space."
-          - "**CyRxnOpt:** co-developed a unified interface for benchmarking reaction optimization algorithms, integrated into the RxnRover automation ecosystem."
+          - "**CyRxnOpt:** co-developed a unified interface for benchmarking reaction optimization algorithms, integrated into the RxnRover automation ecosystem; published in *Digital Discovery* (2026) as co-first author."
           - "**ALSEBO:** developed a coevolution-informed Bayesian optimization framework over a generative latent sequence landscape for data-efficient protein design; designed novel green fluorescent protein variants validated by MD simulations."
           - "**Enzyme thermal adaptation:** studied serine proteases and cold-adapted β-glucosidases from psychrophilic to thermophilic organisms using molecular dynamics, bioinformatics, and unsupervised machine learning."
           - "Collaborated with Oak Ridge National Laboratory and the Critical Materials Innovation Hub (CMI) on multi-objective optimization of molten salt electrochemical graphitization."
@@ -101,6 +101,8 @@ cv:
       - name: AMLRO GUI
         url: https://github.com/dulithaprasanna/amlro_GUI
         summary: Web interface for running AMLRO active learning optimization campaigns without writing Python (Flask API backend, React/TypeScript frontend).
+        highlights:
+          - "Released as DOE software: [doi:10.11578/dc.20260928.1](https://doi.org/10.11578/dc.20260928.1)."
 
       - name: ALSEBO (Active Learning Sequence Exploration via Bayesian Optimization)
         url: https://github.com/dulithaprasanna/ALSEBO
@@ -113,6 +115,8 @@ cv:
       - name: CyRxnOpt
         url: https://github.com/RxnRover/CyRxnOpt
         summary: Common Python interface for reaction optimization algorithms, usable from a CLI or inside self-optimizing platforms.
+        highlights:
+          - "Published in *Digital Discovery* (2026): [doi:10.1039/D6DD00180G](https://doi.org/10.1039/D6DD00180G)."
 
     Presentations:
       - label: "2026"

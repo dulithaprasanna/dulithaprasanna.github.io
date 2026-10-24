@@ -28,7 +28,7 @@ related_publications: false
 - **Explainable AI:** SHAP analysis shows which variables (catalyst, solvent, temperature, time, …) drive reaction performance, so the model's recommendations are interpretable, not a black box.
 - **Applications:** aldehyde-selective **Wacker oxidation** (multi-objective, 7-dimensional parameter space), Paal-Knorr flow synthesis, and closed-loop continuous flow synthesis of diglycolamides.
 
-Code: [RxnRover/amlro](https://github.com/RxnRover/amlro) · Web GUI: [amlro_GUI](https://github.com/dulithaprasanna/amlro_GUI) · Software DOI: [10.11578/dc.20260205.1](https://doi.org/10.11578/dc.20260205.1)
+Code: [RxnRover/amlro](https://github.com/RxnRover/amlro) · Web GUI: [amlro_GUI](https://github.com/dulithaprasanna/amlro_GUI) ([DOI: 10.11578/dc.20260928.1](https://doi.org/10.11578/dc.20260928.1)) · Software DOI: [10.11578/dc.20260205.1](https://doi.org/10.11578/dc.20260205.1)
 
 #### How it works
 
