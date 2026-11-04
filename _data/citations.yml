@@ -1,36 +1,43 @@
-# Updated automatically by the "Update Google Scholar Citations" workflow.
 metadata:
-  last_updated: "2026-10-17"
+  last_updated: '2026-11-04'
 papers:
   k65eEsEAAAAJ:2osOgNQ5qMEC:
     citations: 0
-    title: "RxnRover/amlro"
-    year: "2026"
+    title: RxnRover/amlro
+    year: '2026'
   k65eEsEAAAAJ:9yKSN-GCB0IC:
     citations: 0
-    title: "RxnRover/CyRxnOpt"
-    year: "2025"
+    title: RxnRover/CyRxnOpt
+    year: '2025'
   k65eEsEAAAAJ:IjCSPb-OGe4C:
     citations: 0
-    title: "Coevolution-informed Bayesian optimization for sample-efficient protein design"
-    year: "2026"
+    title: Coevolution-informed Bayesian optimization for sample-efficient protein design
+    year: '2026'
+  k65eEsEAAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: 'CyRxnOpt: generalized reaction optimization interface for autonomous laboratories and benchmarking'
+    year: '2026'
   k65eEsEAAAAJ:UeHWp8X0CEIC:
     citations: 0
-    title: "Continuous Flow Synthesis of Diglycolamides for Rare-Earth Elements Recovery: Algorithm-Accelerated Reaction Optimization Coupled with Automated Extraction Evaluation"
-    year: "2026"
+    title: 'Continuous Flow Synthesis of Diglycolamides for Rare-Earth Elements Recovery: Algorithm-Accelerated Reaction Optimization Coupled with Automated Extraction Evaluation'
+    year: '2026'
+  k65eEsEAAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: Active Machine Learning Reaction Optimizer Graphical User Interface (amlro_GUI)
+    year: '2026'
   k65eEsEAAAAJ:d1gkVwhDpl0C:
     citations: 2
-    title: "Thermal adaptation of extremozymes: Temperature-sensitive contact analysis of serine proteases"
-    year: "2025"
+    title: 'Thermal adaptation of extremozymes: Temperature-sensitive contact analysis of serine proteases'
+    year: '2025'
   k65eEsEAAAAJ:u-x6o8ySG0sC:
     citations: 0
-    title: "BPS2025-Molecular insights into cold-adapted beta-glucosidases"
-    year: "2025"
+    title: BPS2025-Molecular insights into cold-adapted beta-glucosidases
+    year: '2025'
   k65eEsEAAAAJ:u5HHmVD_uO8C:
     citations: 2
-    title: "Evolutionary thermal adaptations of enzymes at temperature extremes"
-    year: "2024"
+    title: Evolutionary thermal adaptations of enzymes at temperature extremes
+    year: '2024'
   k65eEsEAAAAJ:zYLM7Y9cAGgC:
     citations: 0
-    title: "Exploration without exhaustion"
-    year: "2026"
+    title: Exploration without exhaustion
+    year: '2026'
